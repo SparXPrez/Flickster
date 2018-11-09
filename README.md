@@ -36,6 +36,10 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 Describe any challenges encountered while building the app.
 
+- I had an issue with getting the varialbe "rvMovies" to show up in MovieActivity file. However, the fix was adding it into the manifest file
+
+-I had issues trying to get the app to rotate in landscape mode, however I found that it was because I had my emulator's screen lock to portrait mode.
+
 ## Open-source libraries used
 
 - [Android Async HTTP](https://github.com/loopj/android-async-http) - Simple asynchronous HTTP requests with JSON parsing
